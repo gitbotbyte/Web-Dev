@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jagrit Ahuja - Full-Stack Web Developer and B.Tech CSE student.">
+    <title>Jagrit Ahuja | Full-Stack Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#about" aria-label="Jagrit Ahuja home">JA<span>.</span></a>
+        <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+        <nav class="nav" aria-label="Primary navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="about">
+            <div class="hero-copy">
+                <p class="eyebrow">Full-Stack Web Developer</p>
+                <h1>Jagrit <span>Ahuja.</span></h1>
+                <p class="lead">I build responsive, useful web experiences with clean and scalable code.</p>
+                <p>I'm a B.Tech CSE student with hands-on experience in React, JavaScript, Node.js, HTML, and CSS. I enjoy translating ideas into polished products and am seeking a web development opportunities where I can make a real-world impact.</p>
+                <div class="hero-actions">
+                    <a class="button primary" href="#contact">Let's connect <span aria-hidden="true">&rarr;</span></a>
+                    <a class="button secondary" href="#projects">View my work</a>
+                    <a class="button secondary" href="assets/Jagrit-Ahuja-Resume.pdf" download="Jagrit-Ahuja-Resume.pdf">Download resume</a>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <img class="hero-image" src="my.jpg" alt="Portrait of Jagrit Ahuja">
+                <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+            </div>
+        </section>
+
+        <section class="social-bar" aria-label="Contact and social profiles">
+            <p>Find me online</p>
+            <div class="social-links">
+                <a href="https://mail.google.com/mail/to=jagritahuja6%40gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Compose an email to Jagrit in Gmail" title="Email Jagrit"><img src="icons/gmail.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/jagrit-ahuja" target="_blank" rel="noopener noreferrer" aria-label="Open Jagrit's LinkedIn profile" title="LinkedIn"><img src="icons/linkedin-svgrepo-com.svg" alt=""></a>
+                <a href="https://github.com/gitbotbyte" target="_blank" rel="noopener noreferrer" aria-label="Open Jagrit's GitHub profile" title="GitHub"><img src="icons/github-inverted-svgrepo-com.svg" alt=""></a>
+                <a href="https://leetcode.com/u/JagritAhuja/" target="_blank" rel="noopener noreferrer" aria-label="Open Jagrit's LeetCode profile" title="LeetCode"><img src="icons/leetcode.svg" alt=""></a>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <p class="section-kicker">What I work with</p><h2>Skills &amp; tools</h2>
+            <div class="skill-grid">
+                <article><span>01</span><h3>Frontend</h3><p>React.js, HTML5, CSS3, JavaScript, Bootstrap, AngularJS basics</p></article>
+                <article><span>02</span><h3>Backend</h3><p>Node.js, Express.js, REST API integration, SQL</p></article>
+                <article><span>03</span><h3>Foundations</h3><p>C, C++, Python, Git, GitHub, DSA, OOP, DBMS, OS &amp; Networks</p></article>
+            </div>
+        </section>
+
+        <section class="section section-muted" id="projects">
+            <p class="section-kicker">Selected work</p><h2>Projects</h2>
+            <div class="project-grid">
+                <article class="project-card featured"><div class="project-number">01</div><h3>AI-Powered Resume Reviewer</h3><p>A web app that accepts PDF resumes and returns structured, AI-generated feedback for students preparing for campus placements.</p><ul><li>PDF-to-text parsing and prompt engineering</li><li>Clean React user interface with Node.js backend</li></ul><div class="tags"><span>React</span><span>Javascript</span><span>REST API</span></div></article>
+                <article class="project-card"><div class="project-number">02</div><h3>Netflix Clone</h3><p>A responsive Netflix-style interface with hero banners, movie cards, and polished hover interactions.</p><ul><li>TMDB API movie data and debounced search</li><li>Lazy-loaded images for improved performance</li></ul><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>TMDB API</span></div></article>
+                <article class="project-card"><div class="project-number">03</div><h3>Live Weather Forecast App</h3><p>A responsive weather app that presents real-time conditions and a five-day forecast.</p><ul><li>Geolocation support and invalid-input handling</li><li>Temperature, humidity, wind speed, and forecast data</li></ul><div class="tags"><span>JavaScript</span><span>OpenWeather API</span></div></article>
+                <article class="project-card"><div class="project-number">04</div><h3>Web Media Player</h3><p>A Spotify-like media player with playlist management and intuitive track controls.</p><ul><li>Play, pause, seek, and playlist controls</li><li>Real-time progress tracking with the Audio API</li></ul><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+            </div>
+            <a class="text-link" href="https://github.com/gitbotbyte" target="_blank" rel="noopener noreferrer">See more on GitHub &rarr;</a>
+        </section>
+
+        <section class="section details" id="education">
+            <div><p class="section-kicker">Education</p><h2>Always learning.</h2></div>
+            <p><strong>B.Tech in Computer Science &amp; Engineering</strong><br>Guru Gobind Singh Indraprastha University<br><span>2023 - Present &middot; CGPA: 8.16 &middot; Expected graduation: June 2027</span></p>
+        </section>
+
+        <section class="section" id="certifications">
+            <p class="section-kicker">Credentials</p><h2>Certifications</h2>
+            <div class="certification-list"><article><span>07 / 2025</span><h3>Front-End Development</h3><p>OneRoadMap</p></article><article><span>09 / 2025</span><h3>Full-Stack Development</h3><p>Udemy</p></article></div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <p class="section-kicker">Have an opportunity?</p><h2>Let's build something<br><span>great together.</span></h2>
+            <a class="contact-link" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=jagritahuja6%40gmail.com" target="_blank" rel="noopener noreferrer">jagritahuja6@gmail.com <span>&nearr;</span></a>
+        </section>
+    </main>
+    <footer>&copy; <span id="year"></span> Jagrit Ahuja. Built with curiosity.</footer>
+</body>
+</html>
