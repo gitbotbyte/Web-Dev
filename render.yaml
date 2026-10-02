@@ -1,0 +1,18 @@
+﻿services:
+  - type: web
+    name: loop-api
+    runtime: node
+    buildCommand: npm ci
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: MONGO_URI
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: CLIENT_URL
+        sync: false
